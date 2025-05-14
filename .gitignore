@@ -1,3 +1,15 @@
+# Build directories
+build/
+out/
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# Log files
+*.log
+
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -10,3 +22,6 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+
+#MacOS
+.DS_Store
